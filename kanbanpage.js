@@ -98,3 +98,17 @@ const KanbanPage = () => {
                         </div>
                       )}
                     </Draggable>
+                  ))}
+                  {provided.placeholder}
+                </div>
+              )}
+            </Droppable>
+          );
+        })}
+      </DragDropContext>
+    </div>
+  );
+};
+
+export default KanbanPage;
+
